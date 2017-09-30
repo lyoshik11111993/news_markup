@@ -1,0 +1,16 @@
+
+table {
+    width: 100%;
+}
+
+tr td:first-child {
+    width: 20%;
+}
+
+.dottedTable td,  .dottedTable th {
+    border: dotted;
+}
+
+.solidTable td,  .solidTable th {
+    border: solid;
+}
