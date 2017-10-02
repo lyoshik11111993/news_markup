@@ -13,7 +13,7 @@ public class MainController {
 
     @RequestMapping(value = {"/","/home"}, method = RequestMethod.GET)
     public String getMain() {
-        return "static/example.html";
+        return "static/main.html";
     }
 
     @RequestMapping(value = "/product", method = RequestMethod.GET)
@@ -22,3 +22,4 @@ public class MainController {
     }
 
 }
+// #ececec
